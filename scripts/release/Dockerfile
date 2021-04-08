@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM ubuntu:latest
+FROM ubuntu:rolling
 
 ADD ./apache-servicecomb-service-center-latest-linux-amd64 /release/
 
